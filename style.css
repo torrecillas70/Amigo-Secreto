@@ -88,8 +88,10 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    display: flex;
+    width: 600px;
     justify-content: center;
+    gap: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -154,7 +156,7 @@ ul {
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .button-draw:hover {
